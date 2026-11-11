@@ -138,8 +138,10 @@ A aplicação sobe em `http://localhost:5173`.
 
 > [!WARNING]
 > **Não rode `firebase deploy` a partir deste repositório.** O `.firebaserc` aponta para o
-> projeto de produção, e o endereço `ecomapbrasil-17756.web.app` hoje é de outra versão:
-> o deploy substituiria o site no ar por esta versão antiga.
+> projeto de produção. O site padrão dele, `ecomapbrasil-17756.web.app`, hoje só redireciona
+> para o site do 4º semestre, em [ecomapbrasil.web.app](https://ecomapbrasil.web.app): o
+> deploy trocaria esse redirecionamento por esta versão antiga, e os links antigos
+> deixariam de levar ao site atual.
 
 Enquanto foi a versão principal, o site era publicado no **Firebase Hosting** com
 `npm run build` e `firebase deploy`.
